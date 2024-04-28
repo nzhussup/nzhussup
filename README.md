@@ -55,6 +55,7 @@ class About(Me):
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white)
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
 ![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
+
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -76,6 +77,8 @@ class About(Me):
 ![SparkML](https://img.shields.io/badge/-SparkML-E25A1C?style=flat-square&logo=apache-spark&logoColor=white)
 ![Ggplot2](https://img.shields.io/badge/-Ggplot2-FF6347?style=flat-square&logo=ggplot2&logoColor=white)
 ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+
+**and more :)**
 
 ### 💾 Databases
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
