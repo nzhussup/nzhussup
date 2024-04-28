@@ -43,11 +43,6 @@ class About(Me):
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=koettbullarr&repo=Clustering-Based-SVDpp&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Clustering-Based-SVDpp" />
 </a>
 
-## 📊 My Stats
-
-![Nurik's GitHub stats](https://github-readme-stats.vercel.app/api?username=koettbullarr&hide=contribs,prs&bg_color=22272e&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&show_icons=true&theme=dark)
-
-😅 Yes, I'm new to GitHub.
 
 ## 💻 Skills
 
