@@ -32,7 +32,7 @@ class About(Me):
         return "https://github.com/koettbullarr?tab=repositories"
 ```
 
-## Social
+## 📱 Social
 
 [![jhc github](https://img.shields.io/badge/GitHub-koettbullarr-181717.svg?style=flat&logo=github)](https://github.com/koettbullarr)
 [![jhc linkedin](https://img.shields.io/badge/LinkedIn-N.Zhussup-00aced.svg?style=flat&logo=linkedin)](https://www.linkedin.com/in/nurzhanat-zhussup)
