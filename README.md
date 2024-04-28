@@ -20,20 +20,16 @@ class About(Me):
         self.specialization = "Data Science"
         self.city = "Vienna"
  
-    def contact(self) -> dict:
+    def get_contact(self) -> dict:
         return {
             "LinkedIn": "https://www.linkedin.com/in/nurzhanat-zhussup/",
             "E-Mail": "zhussup.nb@gmail.com"
         }
+    def get_hobbies(self) -> list:
+        return ["Skiing", "Playing Tennis", "Gaming", "Programming",
+                "Learning something new in Data Science and Web/Software Development"]
 
-    def get_skills(self) -> dict:
-        return {
-            "Programming": ["Python", "R", "Java"],
-            "Data Science": ["Machine Learning", "Deep Learning", "Big Data", "Data Processing"]
-        }
-        
-    def get_projects(self) -> str:
-        return "https://github.com/koettbullarr?tab=repositories"
+
 ```
 
 
