@@ -4,14 +4,11 @@
 """
 Short info about me:
 """
-
 class Me:
-
     def __init__(self):
         self.name = "Nurzhanat Zhussup"
         
 class About(Me):
-
     def __init__(self):
         super().__init__
         
