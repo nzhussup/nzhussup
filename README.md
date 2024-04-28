@@ -10,7 +10,7 @@ class Me:
         
 class About(Me):
     def __init__(self):
-        super().__init__
+        super().__init__()
         
         self.university = "Vienna University of Economics and Business"
         self.degree = "BSc. Business, Economics and Social Sciences"
