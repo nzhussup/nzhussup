@@ -36,18 +36,30 @@ class About(Me):
         return "https://github.com/koettbullarr?tab=repositories"
 ```
 
-## Skills
 
-### (Programming) Languages
+## 🌟 My Current Highlight Project
+
+<a href="https://github.com/koettbullarr/Clustering-Based-SVDpp">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=koettbullarr&repo=Clustering-Based-SVDpp&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Clustering-Based-SVDpp" />
+</a>
+
+## 📊 My Stats
+
+![Nurik's GitHub stats](https://github-readme-stats.vercel.app/api?username=koettbullarr&hide=contribs,prs&bg_color=22272e&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&show_icons=true&theme=dark)
+
+😅 Yes, I'm new to GitHub.
+
+## 💻 Skills
+
+### 🖥️ (Programming) Languages
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white)
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
 ![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
-
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-### (Common) Libraries & Frameworks
+### 🧰 (Common) Libraries & Frameworks
 ![Scikit-learn](https://img.shields.io/badge/-Scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Tensorflow](https://img.shields.io/badge/-Tensorflow-FF6F00?style=flat-square&logo=Tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=Keras&logoColor=white)
@@ -65,20 +77,19 @@ class About(Me):
 ![Ggplot2](https://img.shields.io/badge/-Ggplot2-FF6347?style=flat-square&logo=ggplot2&logoColor=white)
 ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 
-**and more :)**
-
-### Databases
+### 💾 Databases
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-### Tools
+### 🔧 Tools
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![PowerBI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=power-bi&logoColor=black)
 ![Jira](https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
 ![Confluence](https://img.shields.io/badge/-Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white)
 
-## Connect Me
+## 📬 Connect with Me
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nurzhanat-zhussup/)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:zhussup.nb@gmail.com)
+
 
 
