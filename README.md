@@ -39,7 +39,7 @@ class About(Me):
     
 ## 🔧 Technologies & Tools
 
-![Java](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=java&logoColor=white&color=6aa6f8)
+![Java](https://img.shields.io/badge/Java-informational?style=flat&logo=java&logoColor=white&color=6aa6f8)
 
 [![R](https://img.shields.io/badge/-script-276DC3.svg?style=flat&logo=R)](https://cran.r-project.org)
 [![RStudio](https://img.shields.io/badge/RStudio-project-75AADB.svg?style=flat&logo=RStudio)](https://www.rstudio.com)
