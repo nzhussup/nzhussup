@@ -51,6 +51,7 @@ class About(Me):
 ### 🧰 (Common) Libraries & Frameworks
 ![Scikit-learn](https://img.shields.io/badge/-Scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Tensorflow](https://img.shields.io/badge/-Tensorflow-FF6F00?style=flat-square&logo=Tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=Keras&logoColor=white)
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![SciPy](https://img.shields.io/badge/-SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
@@ -67,6 +68,11 @@ class About(Me):
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![PySpark](https://img.shields.io/badge/-PySpark-E25A1C?style=flat-square&logo=apache-spark&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/-Apache%20Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
+
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![MLflow](https://img.shields.io/badge/-MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 
 
 **and more :)**
