@@ -33,7 +33,7 @@ class About(Me):
 ## 🌟 My Current Highlight Project
 
 <a href="https://github.com/koettbullarr/Clustering-Based-SVDpp">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=koettbullarr&repo=Clustering-Based-SVDpp&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Clustering-Based-SVDpp" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nzhussup&repo=Clustering-Based-SVDpp&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="Clustering-Based-SVDpp" />
 </a>
 
 
