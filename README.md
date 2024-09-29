@@ -45,7 +45,7 @@ class About(Me):
 </a>
 
 <a href="https://github.com/nzhussup/SimpleJobAppBackend">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nzhussup&repo=SimpleJobAppBackendn&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="SimpleJobAppBackend" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nzhussup&repo=SimpleJobAppBackend&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="SimpleJobAppBackend" />
 </a>
 
 
