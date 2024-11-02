@@ -44,8 +44,8 @@ class About(Me):
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nzhussup&repo=RecommenderBackend&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="RecommenderBackend" />
 </a>
 
-<a href="https://github.com/nzhussup/SimpleJobAppMVC">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nzhussup&repo=SimpleJobAppMVC&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="SimpleJobAppMVC" />
+<a href="https://github.com/nzhussup/KanbanBoard">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nzhussup&repo=KanbanBoard&show_icons=true&line_height=27&title_color=6aa6f8&text_color=8a919a&icon_color=6aa6f8&bg_color=22272e" alt="KanbanBoard" />
 </a>
 
 
