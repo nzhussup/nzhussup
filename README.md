@@ -1,6 +1,6 @@
 # Hi there 😀✌️
 
-```python
+```go
 """
 Short info about me:
 """
@@ -12,10 +12,16 @@ class About(Me):
     def __init__(self):
         super().__init__()
         
-        self.university = "Vienna University of Economics and Business"
-        self.degree = "BSc. Business, Economics and Social Sciences"
-        self.specialization = "Data Science"
-        self.city = "Vienna"
+        self.masters = {
+            "university": "Technical University Vienna",
+            "programm": "MSc. Computer Science",
+            "status": "ongoing"
+        }
+        self.bachelors = {
+            "university": "Vienna University of Business and Economics",
+            "programm": "BSc. Business, Economics and Social Sciences",
+            "status": "completed"
+        }
  
     def get_contact(self) -> dict:
         return {
