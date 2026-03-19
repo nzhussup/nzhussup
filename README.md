@@ -9,7 +9,7 @@
   <a href="mailto:zhussup.nb@gmail.com">
     <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://nzhussup.com">
+  <a href="https://nzhussup.dev">
     <img src="https://img.shields.io/badge/Portfolio-0F766E?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" />
   </a>
 </p>
@@ -137,5 +137,5 @@ My current work sits at the intersection of web development, backend systems, pl
 <p>
   <a href="https://www.linkedin.com/in/nurzhanat-zhussup/">LinkedIn</a> ·
   <a href="mailto:zhussup.nb@gmail.com">zhussup.nb@gmail.com</a> ·
-  <a href="https://nzhussup.com">nzhussup.com</a>
+  <a href="https://nzhussup.dev">nzhussup.dev</a>
 </p>
