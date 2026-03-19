@@ -5,12 +5,15 @@ from __future__ import annotations
 import json
 from math import ceil
 from pathlib import Path
+from datetime import datetime, UTC
+import re
 from xml.sax.saxutils import escape
 
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "assets" / "profile-header.config.json"
-OUTPUT_PATH = ROOT / "assets" / "profile-header.svg"
+ASSETS_DIR = ROOT / "assets"
+README_PATH = ROOT / "README.md"
 
 RIGHT_X = 760
 RIGHT_WIDTH = 456
@@ -402,9 +405,30 @@ def build_svg(config: dict) -> str:
 """
 
 
+def cleanup_old_headers(keep: Path) -> None:
+    for path in ASSETS_DIR.glob("profile-header*.svg"):
+        if path != keep:
+            path.unlink(missing_ok=True)
+
+
+def update_readme_header_reference(asset_name: str) -> None:
+    readme = README_PATH.read_text()
+    updated = re.sub(
+        r'(<img\s+src=")(?:https://raw\.githubusercontent\.com/[^"]+|\.?/assets/profile-header[^"]*\.svg(?:\?[^"]*)?)(" alt="Nurzhanat Zhussup banner")',
+        rf'\1./assets/{asset_name}\2',
+        readme,
+        count=1,
+    )
+    README_PATH.write_text(updated)
+
+
 def main() -> int:
     config = json.loads(CONFIG_PATH.read_text())
-    OUTPUT_PATH.write_text(build_svg(config))
+    timestamp = datetime.now(UTC).strftime("%Y%m%d%H%M%S")
+    output_path = ASSETS_DIR / f"profile-header-{timestamp}.svg"
+    output_path.write_text(build_svg(config))
+    cleanup_old_headers(output_path)
+    update_readme_header_reference(output_path.name)
     return 0
 
 

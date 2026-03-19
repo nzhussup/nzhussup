@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Nurzhanat Zhussup banner" width="100%" />
+  <img src="./assets/profile-header-20260319131047.svg" alt="Nurzhanat Zhussup banner" width="100%" />
 </p>
 
 <p align="center">
