@@ -18,6 +18,7 @@ CARD_GAP = 18
 CARD_HEIGHT = 112
 CARD_WIDTH = (RIGHT_WIDTH - CARD_GAP) // 2
 CARD_BOTTOM = 560
+LEFT_MAX_WIDTH = 600
 
 THEME_PRESETS = {
     "light": {
@@ -282,7 +283,7 @@ def render_left_copy(config: dict, colors: dict[str, str]) -> str:
     if isinstance(subline_value, list):
         subline_lines = [str(line) for line in subline_value if str(line).strip()]
     else:
-        subline_lines = wrap_text(str(subline_value), 26, 600)
+        subline_lines = wrap_text(str(subline_value), 26, LEFT_MAX_WIDTH)
     subline_start_y = headline_start_y + (len(headline_lines) - 1) * headline_line_height + 66
     subline_block = svg_text_lines(
         92,
@@ -392,7 +393,7 @@ def build_svg(config: dict) -> str:
   </g>
   <path d="M82 520C262 384 390 366 574 440" stroke="{colors['line']}" stroke-width="2"/>
   <path d="M742 116C916 112 1032 154 1176 280" stroke="{colors['line']}" stroke-width="2" stroke-dasharray="6 10"/>
-  <rect x="64" y="64" width="1152" height="512" rx="30" fill="{palette_value(colors, 'surface3', colors['surface'])}" stroke="{palette_value(colors, 'frame', '#F4EBE1')}"/>
+  <rect x="44" y="48" width="1192" height="544" rx="30" fill="{palette_value(colors, 'surface3', colors['surface'])}" stroke="{palette_value(colors, 'frame', '#F4EBE1')}"/>
   {art}
   {left_copy}
   {tags}

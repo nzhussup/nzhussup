@@ -35,7 +35,7 @@
   </g>
   <path d="M82 520C262 384 390 366 574 440" stroke="#30363D" stroke-width="2"/>
   <path d="M742 116C916 112 1032 154 1176 280" stroke="#30363D" stroke-width="2" stroke-dasharray="6 10"/>
-  <rect x="64" y="64" width="1152" height="512" rx="30" fill="#0F141A" stroke="#30363D"/>
+  <rect x="44" y="48" width="1192" height="544" rx="30" fill="#0F141A" stroke="#30363D"/>
   
   <g>
     <circle cx="950" cy="232" r="126" fill="#F78166" fill-opacity="0.14"/>
