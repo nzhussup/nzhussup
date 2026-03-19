@@ -19,6 +19,43 @@ CARD_HEIGHT = 112
 CARD_WIDTH = (RIGHT_WIDTH - CARD_GAP) // 2
 CARD_BOTTOM = 560
 
+THEME_PRESETS = {
+    "light": {
+        "bg": "#FBF7F1",
+        "bg2": "#F5EFE6",
+        "bg3": "#FFF9F1",
+        "surface": "#FFFDF9",
+        "surface2": "#F2E9DD",
+        "surface3": "#F8F1E7",
+        "line": "#D7CABC",
+        "frame": "#F4EBE1",
+        "dot": "#C9BAAA",
+        "text": "#1F2937",
+        "muted": "#6B7280",
+        "accent": "#FF8F6B",
+        "accent2": "#5DB7D8",
+        "accent3": "#8B7CF7",
+        "accent4": "#EAB308",
+    },
+    "dark": {
+        "bg": "#0D1117",
+        "bg2": "#161B22",
+        "bg3": "#1C2128",
+        "surface": "#161B22",
+        "surface2": "#21262D",
+        "surface3": "#0F141A",
+        "line": "#30363D",
+        "frame": "#30363D",
+        "dot": "#8B949E",
+        "text": "#E6EDF3",
+        "muted": "#9DA7B3",
+        "accent": "#F78166",
+        "accent2": "#79C0FF",
+        "accent3": "#D2A8FF",
+        "accent4": "#E3B341",
+    },
+}
+
 
 def estimate_text_width(text: str, font_size: int, factor: float = 0.58) -> int:
     return int(len(text) * font_size * factor)
@@ -48,6 +85,15 @@ def palette_value(colors: dict[str, str], key: str, fallback: str) -> str:
 
 def color_token(colors: dict[str, str], token: str, fallback: str) -> str:
     return colors.get(token, token or fallback)
+
+
+def resolve_colors(config: dict) -> dict[str, str]:
+    theme = str(config.get("theme", "dark")).lower()
+    base = dict(THEME_PRESETS.get(theme, THEME_PRESETS["dark"]))
+    overrides = config.get("colors", {})
+    if isinstance(overrides, dict):
+        base.update({str(key): str(value) for key, value in overrides.items()})
+    return base
 
 
 def svg_text(x: int, y: int, text: str, *, fill: str, font_size: int, weight: int, family: str, letter_spacing: float | None = None) -> str:
@@ -302,7 +348,7 @@ def render_art(config: dict, colors: dict[str, str]) -> str:
 
 
 def build_svg(config: dict) -> str:
-    colors = config["colors"]
+    colors = resolve_colors(config)
     tags = render_tags(list(config.get("tags", [])), colors)
     cards = render_cards(list(config.get("cards", [])), colors)
     left_copy = render_left_copy(config, colors)
@@ -346,7 +392,7 @@ def build_svg(config: dict) -> str:
   </g>
   <path d="M82 520C262 384 390 366 574 440" stroke="{colors['line']}" stroke-width="2"/>
   <path d="M742 116C916 112 1032 154 1176 280" stroke="{colors['line']}" stroke-width="2" stroke-dasharray="6 10"/>
-  <rect x="64" y="64" width="1152" height="512" rx="30" fill="white" fill-opacity="0.36" stroke="{palette_value(colors, 'frame', '#F4EBE1')}"/>
+  <rect x="64" y="64" width="1152" height="512" rx="30" fill="{palette_value(colors, 'surface3', colors['surface'])}" stroke="{palette_value(colors, 'frame', '#F4EBE1')}"/>
   {art}
   {left_copy}
   {tags}
