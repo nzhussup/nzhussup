@@ -1,0 +1,104 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Nurzhanat Zhussup profile header</title>
+  <desc id="desc">Configurable GitHub profile banner with a modern minimal editorial design.</desc>
+  <defs>
+    <linearGradient id="bg" x1="88" y1="44" x2="1158" y2="592" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF7F1"/>
+      <stop offset="0.58" stop-color="#F5EFE6"/>
+      <stop offset="1" stop-color="#FFF9F1"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(244 156) rotate(34) scale(278 198)">
+      <stop stop-color="#FF8F6B" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FF8F6B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 214) rotate(41) scale(248 218)">
+      <stop stop-color="#5DB7D8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#5DB7D8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowC" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1090 390) rotate(180) scale(200 154)">
+      <stop stop-color="#8B7CF7" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#8B7CF7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-120" y="-120" width="1520" height="920" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="48"/>
+    </filter>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#C9BAAA" fill-opacity="0.25"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" rx="36" fill="url(#bg)"/>
+  <rect width="1280" height="640" rx="36" fill="url(#dots)"/>
+  <g filter="url(#blur)">
+    <ellipse cx="240" cy="180" rx="270" ry="190" fill="url(#glowA)"/>
+    <ellipse cx="980" cy="214" rx="248" ry="218" fill="url(#glowB)"/>
+    <ellipse cx="1090" cy="390" rx="200" ry="154" fill="url(#glowC)"/>
+  </g>
+  <path d="M82 520C262 384 390 366 574 440" stroke="#D7CABC" stroke-width="2"/>
+  <path d="M742 116C916 112 1032 154 1176 280" stroke="#D7CABC" stroke-width="2" stroke-dasharray="6 10"/>
+  <rect x="64" y="64" width="1152" height="512" rx="30" fill="white" fill-opacity="0.36" stroke="#F4EBE1"/>
+  
+  <g>
+    <circle cx="950" cy="232" r="126" fill="#FF8F6B" fill-opacity="0.14"/>
+    <circle cx="1032" cy="258" r="82" fill="#5DB7D8" fill-opacity="0.18"/>
+    <circle cx="1128" cy="210" r="54" fill="#8B7CF7" fill-opacity="0.18"/>
+    <path d="M852 322C908 278 986 272 1046 304C1105 336 1150 404 1120 466C1090 528 1000 552 920 524C840 496 804 428 824 370C830 352 840 336 852 322Z" fill="#FFFDF9" fill-opacity="0.88" stroke="#D7CABC"/>
+    <path d="M848 322C902 300 962 302 1016 330" stroke="#D7CABC" stroke-width="2"/>
+    <path d="M874 408C934 372 1014 374 1070 414" stroke="#D7CABC" stroke-width="2"/>
+    <path d="M904 482C966 454 1030 456 1082 488" stroke="#D7CABC" stroke-width="2"/>
+    <circle cx="890" cy="290" r="8" fill="#FF8F6B"/>
+    <circle cx="1088" cy="196" r="8" fill="#5DB7D8"/>
+    <circle cx="1044" cy="520" r="8" fill="#8B7CF7"/>
+  </g>
+  
+  <rect x="92" y="94" width="340" height="38" rx="19" fill="#F2E9DD" stroke="#D7CABC"/>
+  <text x="114" y="118" fill="#6B7280" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.7">SOFTWARE ENGINEER IN VIENNA</text>
+  <text x="92" y="224" fill="#1F2937" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800">Building what</text>
+  <text x="92" y="312" fill="#1F2937" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800">I wish existed</text>
+  <text x="92" y="378" fill="#6B7280" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500">I like modern and beautiful software. I</text>
+  <text x="92" y="412" fill="#6B7280" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500">am currently focused on design systems</text>
+  <text x="92" y="446" fill="#6B7280" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500">and refactoring my own legacy</text>
+  <line x1="92" y1="492" x2="438" y2="492" stroke="#D7CABC" stroke-width="2"/>
+  <circle cx="444" cy="492" r="5" fill="#FF8F6B"/>
+  
+  <g transform="translate(92 456)">
+    <rect width="202" height="42" rx="21" fill="#FFFDF9" stroke="#D7CABC"/>
+    <text x="20" y="27" fill="#1F2937" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">nzhussup-studio</text>
+  </g>
+  <text x="92" y="575" fill="#6B7280" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Nurzhanat (Nurik) Zhussup</text>
+  
+  <g transform="translate(760 108)">
+    <rect width="104" height="44" rx="22" fill="#FFFDF9" stroke="#D7CABC"/>
+    <circle cx="22" cy="22" r="5" fill="#FF8F6B"/>
+    <text x="36" y="27" fill="#1F2937" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">web</text>
+  </g>
+  <g transform="translate(880 108)">
+    <rect width="125" height="44" rx="22" fill="#F2E9DD" stroke="#D7CABC"/>
+    <circle cx="22" cy="22" r="5" fill="#5DB7D8"/>
+    <text x="36" y="27" fill="#1F2937" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">backend</text>
+  </g>
+  <g transform="translate(1021 108)">
+    <rect width="136" height="44" rx="22" fill="#FFFDF9" stroke="#D7CABC"/>
+    <circle cx="22" cy="22" r="5" fill="#8B7CF7"/>
+    <text x="36" y="27" fill="#1F2937" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">platform</text>
+  </g>
+  <g transform="translate(760 166)">
+    <rect width="104" height="44" rx="22" fill="#F2E9DD" stroke="#D7CABC"/>
+    <circle cx="22" cy="22" r="5" fill="#EAB308"/>
+    <text x="36" y="27" fill="#1F2937" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">ai</text>
+  </g>
+  
+  <g transform="translate(760 448)">
+    <rect width="219" height="112" rx="28" fill="#FFFDF9" fill-opacity="0.92" stroke="#D7CABC"/>
+    <rect x="22" y="22" width="10" height="10" rx="5" fill="#FF8F6B"/>
+    <text x="46" y="33" fill="#6B7280" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">CURRENT MODE</text>
+    <text x="22" y="76" fill="#1F2937" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">refactoring</text>
+  <text x="22" y="104" fill="#1F2937" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">and learning</text>
+  </g>
+  <g transform="translate(997 448)">
+    <rect width="219" height="112" rx="28" fill="#FFFDF9" fill-opacity="0.92" stroke="#D7CABC"/>
+    <rect x="22" y="22" width="10" height="10" rx="5" fill="#5DB7D8"/>
+    <text x="46" y="33" fill="#6B7280" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">FOCUS</text>
+    <text x="22" y="76" fill="#1F2937" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">design</text>
+  <text x="22" y="104" fill="#1F2937" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">systems</text>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+{
+  "name": "Nurzhanat Zhussup",
+  "footer_name": "Nurzhanat (Nurik) Zhussup",
+  "eyebrow": "SOFTWARE ENGINEER IN VIENNA",
+  "headline_lines": [
+    "Building what",
+    "I wish existed"
+  ],
+  "subline": "I like modern and beautiful software. I am currently focused on design systems and refactoring my own legacy codebases.",
+  "pill": "nzhussup-studio",
+  "tags": [
+    {
+      "text": "web",
+      "accent": "accent"
+    },
+    {
+      "text": "backend",
+      "accent": "accent2"
+    },
+    {
+      "text": "platform",
+      "accent": "accent3"
+    },
+    {
+      "text": "ai",
+      "accent": "#EAB308"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Current mode",
+      "body": "refactoring and learning",
+      "accent": "accent"
+    },
+    {
+      "title": "Focus",
+      "body": "design systems",
+      "accent": "accent2"
+    }
+  ],
+  "art": {
+    "enabled": true
+  },
+  "colors": {
+    "bg": "#FBF7F1",
+    "bg2": "#F5EFE6",
+    "bg3": "#FFF9F1",
+    "surface": "#FFFDF9",
+    "surface2": "#F2E9DD",
+    "line": "#D7CABC",
+    "frame": "#F4EBE1",
+    "dot": "#C9BAAA",
+    "text": "#1F2937",
+    "muted": "#6B7280",
+    "accent": "#FF8F6B",
+    "accent2": "#5DB7D8",
+    "accent3": "#8B7CF7"
+  }
+}
