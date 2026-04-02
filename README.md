@@ -41,22 +41,56 @@ My current work sits at the intersection of web development, backend systems, pl
 
 ## Featured Ecosystem
 
-<p align="center">
-  <a href="https://github.com/nzhussup-studio/backend-services">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nzhussup-studio&repo=backend-services&theme=transparent&hide_border=true&title_color=7EE7C7&text_color=C9D7E5&icon_color=59A5FF" alt="backend-services" />
-  </a>
-  <a href="https://github.com/nzhussup-studio/web-admin-panel">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nzhussup-studio&repo=web-admin-panel&theme=transparent&hide_border=true&title_color=7EE7C7&text_color=C9D7E5&icon_color=59A5FF" alt="web-admin-panel" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/nzhussup-studio/web-portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nzhussup-studio&repo=web-portfolio&theme=transparent&hide_border=true&title_color=7EE7C7&text_color=C9D7E5&icon_color=59A5FF" alt="web-portfolio" />
-  </a>
-  <a href="https://github.com/nzhussup-studio/platform-infra">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=nzhussup-studio&repo=platform-infra&theme=transparent&hide_border=true&title_color=7EE7C7&text_color=C9D7E5&icon_color=59A5FF" alt="platform-infra" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/nzhussup-studio/backend-services">
+        <img src="https://img.shields.io/badge/backend--services-181717?style=for-the-badge&logo=github&logoColor=white" alt="backend-services" />
+      </a>
+      <br />
+      Backend APIs, auth, media, and platform service logic.
+      <br />
+      <img src="https://img.shields.io/github/stars/nzhussup-studio/backend-services?style=flat-square&logo=github" alt="backend-services stars" />
+      <img src="https://img.shields.io/github/forks/nzhussup-studio/backend-services?style=flat-square&logo=github" alt="backend-services forks" />
+      <img src="https://img.shields.io/github/languages/top/nzhussup-studio/backend-services?style=flat-square" alt="backend-services top language" />
+    </td>
+    <td>
+      <a href="https://github.com/nzhussup-studio/web-admin-panel">
+        <img src="https://img.shields.io/badge/web--admin--panel-181717?style=for-the-badge&logo=github&logoColor=white" alt="web-admin-panel" />
+      </a>
+      <br />
+      Internal admin UI for CV, projects, albums, and content workflows.
+      <br />
+      <img src="https://img.shields.io/github/stars/nzhussup-studio/web-admin-panel?style=flat-square&logo=github" alt="web-admin-panel stars" />
+      <img src="https://img.shields.io/github/forks/nzhussup-studio/web-admin-panel?style=flat-square&logo=github" alt="web-admin-panel forks" />
+      <img src="https://img.shields.io/github/languages/top/nzhussup-studio/web-admin-panel?style=flat-square" alt="web-admin-panel top language" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/nzhussup-studio/web-portfolio">
+        <img src="https://img.shields.io/badge/web--portfolio-181717?style=for-the-badge&logo=github&logoColor=white" alt="web-portfolio" />
+      </a>
+      <br />
+      Public-facing portfolio and personal site experience.
+      <br />
+      <img src="https://img.shields.io/github/stars/nzhussup-studio/web-portfolio?style=flat-square&logo=github" alt="web-portfolio stars" />
+      <img src="https://img.shields.io/github/forks/nzhussup-studio/web-portfolio?style=flat-square&logo=github" alt="web-portfolio forks" />
+      <img src="https://img.shields.io/github/languages/top/nzhussup-studio/web-portfolio?style=flat-square" alt="web-portfolio top language" />
+    </td>
+    <td>
+      <a href="https://github.com/nzhussup-studio/platform-infra">
+        <img src="https://img.shields.io/badge/platform--infra-181717?style=for-the-badge&logo=github&logoColor=white" alt="platform-infra" />
+      </a>
+      <br />
+      Kubernetes manifests, ingress, TLS, and deployment operations.
+      <br />
+      <img src="https://img.shields.io/github/stars/nzhussup-studio/platform-infra?style=flat-square&logo=github" alt="platform-infra stars" />
+      <img src="https://img.shields.io/github/forks/nzhussup-studio/platform-infra?style=flat-square&logo=github" alt="platform-infra forks" />
+      <img src="https://img.shields.io/github/languages/top/nzhussup-studio/platform-infra?style=flat-square" alt="platform-infra top language" />
+    </td>
+  </tr>
+</table>
 
 ## Current Stack
 
