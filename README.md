@@ -110,6 +110,8 @@ My current work sits at the intersection of web development, backend systems, pl
 
 ### Argo CD Live Status
 
+<div align="center">
+
 | Application | Status |
 | --- | --- |
 | [platform-root](https://argocd.nzhussup.dev/applications/platform-root) | ![platform-root status](https://argocd.nzhussup.dev/api/badge?name=platform-root) |
@@ -117,6 +119,8 @@ My current work sits at the intersection of web development, backend systems, pl
 | [ingress](https://argocd.nzhussup.dev/applications/ingress) | ![ingress status](https://argocd.nzhussup.dev/api/badge?name=ingress) |
 | [config](https://argocd.nzhussup.dev/applications/config) | ![config status](https://argocd.nzhussup.dev/api/badge?name=config) |
 | [https-encryption](https://argocd.nzhussup.dev/applications/https-encryption) | ![https-encryption status](https://argocd.nzhussup.dev/api/badge?name=https-encryption) |
+
+</div>
 
 ## GitHub Snapshot
 
