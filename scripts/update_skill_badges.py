@@ -20,6 +20,10 @@ SKILL_LOGOS_PATH = Path(
 FALLBACK_SKILLS_PATH = Path(
     os.environ.get("FALLBACK_SKILLS_PATH", "scripts/data/fallback_skills.json")
 )
+SKILLS_WORKFLOW_PATH = Path(
+    os.environ.get("SKILLS_WORKFLOW_PATH", ".github/workflows/update-readme.yml")
+)
+SKILLS_UPDATE_CRON = os.environ.get("SKILLS_UPDATE_CRON", "").strip()
 START_MARKER = "<!-- skills-badges:start -->"
 END_MARKER = "<!-- skills-badges:end -->"
 EXCLUDED_CATEGORIES = {"ways of working & soft skills", "languages"}
@@ -126,6 +130,24 @@ def split_skill_names(raw: str) -> list[str]:
     return [item.strip() for item in raw.split(",") if item.strip()]
 
 
+def skills_api_display() -> str:
+    parsed = urllib.parse.urlparse(SKILLS_API_URL)
+    return parsed.netloc or SKILLS_API_URL
+
+
+def resolve_update_cron() -> str:
+    if SKILLS_UPDATE_CRON:
+        return SKILLS_UPDATE_CRON
+
+    try:
+        workflow = SKILLS_WORKFLOW_PATH.read_text()
+    except OSError:
+        return ""
+
+    match = re.search(r'cron:\s*["\']([^"\']+)["\']', workflow)
+    return match.group(1).strip() if match else ""
+
+
 def build_badge(skill_name: str) -> str:
     normalized = normalize_skill_name(skill_name)
     compact = compact_skill_name(skill_name)
@@ -140,7 +162,9 @@ def build_badge(skill_name: str) -> str:
     )
 
 
-def render_skills_section(skills: list[dict], *, is_fallback: bool = False) -> str:
+def render_skills_section(
+    skills: list[dict], *, is_fallback: bool = False, update_cron: str = ""
+) -> str:
     ordered = sorted(
         skills,
         key=lambda skill: (
@@ -150,6 +174,19 @@ def render_skills_section(skills: list[dict], *, is_fallback: bool = False) -> s
     )
 
     lines: list[str] = [START_MARKER]
+    api_display = skills_api_display()
+    if update_cron:
+        lines.append(
+            f"> **Info:** Skill data is fetched from `{api_display}` and "
+            f"auto-updated on schedule `{update_cron}` (UTC)."
+        )
+    else:
+        lines.append(
+            f"> **Info:** Skill data is fetched from `{api_display}` and "
+            "auto-updated by the README workflow schedule."
+        )
+    lines.append("")
+
     if is_fallback:
         lines.append(
             "> **Note:** Skill badges are currently rendered from fallback data "
@@ -194,6 +231,7 @@ def update_readme(section: str) -> None:
 
 def main() -> int:
     using_fallback = False
+    update_cron = resolve_update_cron()
     try:
         skills = fetch_skills()
     except Exception as exc:
@@ -205,7 +243,9 @@ def main() -> int:
         skills = FALLBACK_SKILLS
         using_fallback = True
 
-    section = render_skills_section(skills, is_fallback=using_fallback)
+    section = render_skills_section(
+        skills, is_fallback=using_fallback, update_cron=update_cron
+    )
     update_readme(section)
     return 0
 

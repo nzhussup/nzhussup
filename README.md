@@ -95,6 +95,8 @@ My current work sits at the intersection of web development, backend systems, pl
 ## Current Stack
 
 <!-- skills-badges:start -->
+> **Info:** Skill data is fetched from `api.nzhussup.dev` and auto-updated on schedule `0 6 * * 1` (UTC).
+
 ### Programming Languages
 
 <p>
