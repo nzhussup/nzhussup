@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "category": "Programming Languages",
+    "skillNames": "Go, Java, Python, TypeScript",
+    "displayOrder": 3
+  },
+  {
+    "id": 2,
+    "category": "Backend Development",
+    "skillNames": "Spring Boot, FastAPI, REST, OpenAPI",
+    "displayOrder": 2
+  },
+  {
+    "id": 3,
+    "category": "Cloud, DevOps & Infrastructure",
+    "skillNames": "AWS, Docker, Kubernetes, Terraform",
+    "displayOrder": 1
+  },
+  {
+    "id": 4,
+    "category": "Databases & Storage",
+    "skillNames": "PostgreSQL, Redis, Amazon S3",
+    "displayOrder": 0
+  }
+]

@@ -1,0 +1,1590 @@
+{
+  "activemq": {
+    "aliases": [
+      "active mq"
+    ],
+    "label": "ActiveMQ",
+    "logo": "apacheactivemq",
+    "logoColor": "000000"
+  },
+  "airflow": {
+    "aliases": [],
+    "label": "Airflow",
+    "logo": "apacheairflow",
+    "logoColor": "017CEE"
+  },
+  "alpine linux": {
+    "aliases": [
+      "alpine"
+    ],
+    "label": "Alpine Linux",
+    "logo": "alpinelinux",
+    "logoColor": "0D597F"
+  },
+  "amazon dynamodb": {
+    "aliases": [
+      "dynamodb",
+      "dynamo db",
+      "dynamo-db",
+      "aws dynamodb"
+    ],
+    "label": "DynamoDB",
+    "logo": "amazondynamodb",
+    "logoColor": "4053D6"
+  },
+  "amazon ecr": {
+    "label": "Amazon ECR",
+    "logo": "amazonaws",
+    "logoColor": "FF9900"
+  },
+  "amazon ecs": {
+    "label": "Amazon ECS",
+    "logo": "amazonecs",
+    "logoColor": "FF9900"
+  },
+  "amazon eks": {
+    "label": "Amazon EKS",
+    "logo": "amazoneks",
+    "logoColor": "FF9900"
+  },
+  "amazon s3": {
+    "label": "Amazon S3",
+    "logo": "amazons3",
+    "logoColor": "569A31"
+  },
+  "amazon sqs": {
+    "label": "Amazon SQS",
+    "logo": "amazonaws",
+    "logoColor": "FF9900"
+  },
+  "angular": {
+    "label": "Angular",
+    "logo": "angular",
+    "logoColor": "DD0031"
+  },
+  "ansible": {
+    "label": "Ansible",
+    "logo": "ansible",
+    "logoColor": "EE0000"
+  },
+  "ant design": {
+    "aliases": [],
+    "label": "Ant Design",
+    "logo": "antdesign",
+    "logoColor": "0170FE"
+  },
+  "apache cassandra": {
+    "aliases": [
+      "cassandra"
+    ],
+    "label": "Cassandra",
+    "logo": "apachecassandra",
+    "logoColor": "1287B1"
+  },
+  "apache kafka": {
+    "label": "Apache Kafka",
+    "logo": "apachekafka",
+    "logoColor": "FFFFFF"
+  },
+  "apache pulsar": {
+    "aliases": [
+      "pulsar"
+    ],
+    "label": "Apache Pulsar",
+    "logo": "apachepulsar",
+    "logoColor": "188FFF"
+  },
+  "apache spark": {
+    "label": "Apache Spark",
+    "logo": "apachespark",
+    "logoColor": "E25A1C"
+  },
+  "api gateway": {
+    "label": "API Gateway",
+    "logo": "amazonaws",
+    "logoColor": "FF9900"
+  },
+  "apollo graphql": {
+    "label": "Apollo GraphQL",
+    "logo": "apollographql",
+    "logoColor": "311C87"
+  },
+  "argocd": {
+    "aliases": [
+      "argo cd",
+      "argo-cd",
+      "argo"
+    ],
+    "label": "ArgoCD",
+    "logo": "argo",
+    "logoColor": "EF7B4D"
+  },
+  "astro": {
+    "aliases": [],
+    "label": "Astro",
+    "logo": "astro",
+    "logoColor": "FF5D01"
+  },
+  "aws": {
+    "aliases": [
+      "amazon web services"
+    ],
+    "label": "AWS",
+    "logo": "amazonwebservices",
+    "logoColor": "FF9900"
+  },
+  "aws lambda": {
+    "label": "AWS Lambda",
+    "logo": "awslambda",
+    "logoColor": "FF9900"
+  },
+  "aws lambda powertools": {
+    "label": "AWS Lambda Powertools",
+    "logo": "awslambda",
+    "logoColor": "FF9900"
+  },
+  "aws sdk": {
+    "aliases": [
+      "aws sdk v2"
+    ],
+    "label": "AWS SDK",
+    "logo": "amazonaws",
+    "logoColor": "FF9900"
+  },
+  "azure": {
+    "aliases": [
+      "microsoft azure"
+    ],
+    "label": "Azure",
+    "logo": "microsoftazure",
+    "logoColor": "0078D4"
+  },
+  "azure functions": {
+    "aliases": [],
+    "label": "Azure Functions",
+    "logo": "microsoftazure",
+    "logoColor": "0078D4"
+  },
+  "bash": {
+    "label": "Bash",
+    "logo": "gnubash",
+    "logoColor": "4EAA25"
+  },
+  "bash scripting": {
+    "aliases": [
+      "bash"
+    ],
+    "label": "Bash",
+    "logo": "gnubash",
+    "logoColor": "4EAA25"
+  },
+  "bigquery": {
+    "aliases": [],
+    "label": "BigQuery",
+    "logo": "googlebigquery",
+    "logoColor": "669DF6"
+  },
+  "bootstrap": {
+    "label": "Bootstrap",
+    "logo": "bootstrap",
+    "logoColor": "7952B3"
+  },
+  "boto3": {
+    "aliases": [],
+    "label": "Boto3",
+    "logo": "amazonaws",
+    "logoColor": "FF9900"
+  },
+  "bun": {
+    "aliases": [],
+    "label": "Bun",
+    "logo": "bun",
+    "logoColor": "FBF0DF"
+  },
+  "c": {
+    "label": "C",
+    "logo": "c",
+    "logoColor": "A8B9CC"
+  },
+  "c#": {
+    "label": "C#",
+    "logo": "dotnet",
+    "logoColor": "512BD4"
+  },
+  "c++": {
+    "label": "C++",
+    "logo": "cplusplus",
+    "logoColor": "00599C"
+  },
+  "cert-manager": {
+    "aliases": [
+      "cert manager"
+    ],
+    "label": "cert-manager",
+    "logo": "letsencrypt",
+    "logoColor": "003A70"
+  },
+  "chakra ui": {
+    "aliases": [],
+    "label": "Chakra UI",
+    "logo": "chakraui",
+    "logoColor": "319795"
+  },
+  "chi": {
+    "aliases": [],
+    "label": "Chi",
+    "logo": "go",
+    "logoColor": "00ADD8"
+  },
+  "circleci": {
+    "label": "CircleCI",
+    "logo": "circleci",
+    "logoColor": "FFFFFF"
+  },
+  "clean architecture": {
+    "aliases": [],
+    "label": "Clean Architecture",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "clickhouse": {
+    "aliases": [],
+    "label": "ClickHouse",
+    "logo": "clickhouse",
+    "logoColor": "FFCC01"
+  },
+  "cloud run": {
+    "aliases": [
+      "gcp cloud run"
+    ],
+    "label": "Cloud Run",
+    "logo": "googlecloud",
+    "logoColor": "4285F4"
+  },
+  "cloudflare": {
+    "aliases": [],
+    "label": "Cloudflare",
+    "logo": "cloudflare",
+    "logoColor": "F38020"
+  },
+  "cloudwatch": {
+    "label": "CloudWatch",
+    "logo": "amazoncloudwatch",
+    "logoColor": "FF4F8B"
+  },
+  "cobra": {
+    "aliases": [],
+    "label": "Cobra",
+    "logo": "go",
+    "logoColor": "00ADD8"
+  },
+  "confluence": {
+    "label": "Confluence",
+    "logo": "confluence",
+    "logoColor": "172B4D"
+  },
+  "consul": {
+    "aliases": [],
+    "label": "Consul",
+    "logo": "consul",
+    "logoColor": "F24C53"
+  },
+  "cqrs": {
+    "aliases": [],
+    "label": "CQRS",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "cypress": {
+    "label": "Cypress",
+    "logo": "cypress",
+    "logoColor": "69D3A7"
+  },
+  "datadog": {
+    "label": "Datadog",
+    "logo": "datadog",
+    "logoColor": "632CA6"
+  },
+  "dbt": {
+    "aliases": [],
+    "label": "dbt",
+    "logo": "dbt",
+    "logoColor": "FF694B"
+  },
+  "ddd": {
+    "aliases": [
+      "domain driven design"
+    ],
+    "label": "Domain-Driven Design",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "debian": {
+    "aliases": [],
+    "label": "Debian",
+    "logo": "debian",
+    "logoColor": "A81D33"
+  },
+  "deep learning": {
+    "label": "Deep Learning",
+    "logo": "pytorch",
+    "logoColor": "EE4C2C"
+  },
+  "deno": {
+    "aliases": [],
+    "label": "Deno",
+    "logo": "deno",
+    "logoColor": "FFFFFF"
+  },
+  "dependabot": {
+    "aliases": [],
+    "label": "Dependabot",
+    "logo": "dependabot",
+    "logoColor": "025E8C"
+  },
+  "digitalocean": {
+    "aliases": [],
+    "label": "DigitalOcean",
+    "logo": "digitalocean",
+    "logoColor": "0080FF"
+  },
+  "distributed systems": {
+    "label": "Distributed Systems",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "django": {
+    "label": "Django",
+    "logo": "django",
+    "logoColor": "092E20"
+  },
+  "docker": {
+    "aliases": [
+      "docker engine"
+    ],
+    "label": "Docker",
+    "logo": "docker",
+    "logoColor": "2496ED"
+  },
+  "domain-driven design": {
+    "label": "Domain-Driven Design",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "dynamodb": {
+    "aliases": [
+      "dynamo db",
+      "dynamo-db",
+      "amazon dynamodb",
+      "aws dynamodb"
+    ],
+    "label": "DynamoDB",
+    "logo": "amazondynamodb",
+    "logoColor": "4053D6"
+  },
+  "e2e testing": {
+    "label": "E2E Testing",
+    "logo": "cypress",
+    "logoColor": "69D3A7"
+  },
+  "echo": {
+    "aliases": [
+      "echo framework"
+    ],
+    "label": "Echo",
+    "logo": "go",
+    "logoColor": "00ADD8"
+  },
+  "elasticsearch": {
+    "label": "Elasticsearch",
+    "logo": "elasticsearch",
+    "logoColor": "005571"
+  },
+  "elk": {
+    "label": "ELK",
+    "logo": "elasticstack",
+    "logoColor": "005571"
+  },
+  "event-driven": {
+    "aliases": [
+      "event driven"
+    ],
+    "label": "Event-Driven Architecture",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "event-driven architecture": {
+    "label": "Event-Driven Architecture",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "eventbridge": {
+    "aliases": [
+      "amazon eventbridge",
+      "aws eventbridge"
+    ],
+    "label": "EventBridge",
+    "logo": "amazonaws",
+    "logoColor": "FF9900"
+  },
+  "express": {
+    "label": "Express",
+    "logo": "express",
+    "logoColor": "FFFFFF"
+  },
+  "faiss": {
+    "aliases": [],
+    "label": "FAISS",
+    "logo": "meta",
+    "logoColor": "0081FB"
+  },
+  "fastapi": {
+    "label": "FastAPI",
+    "logo": "fastapi",
+    "logoColor": "00C7B7"
+  },
+  "firebase": {
+    "aliases": [
+      "google firebase"
+    ],
+    "label": "Firebase",
+    "logo": "firebase",
+    "logoColor": "FFCA28"
+  },
+  "flask": {
+    "label": "Flask",
+    "logo": "flask",
+    "logoColor": "FFFFFF"
+  },
+  "fluxcd": {
+    "aliases": [
+      "flux cd"
+    ],
+    "label": "FluxCD",
+    "logo": "flux",
+    "logoColor": "5468FF"
+  },
+  "flyway": {
+    "aliases": [],
+    "label": "Flyway",
+    "logo": "flyway",
+    "logoColor": "CC0200"
+  },
+  "gcp": {
+    "label": "Google Cloud",
+    "logo": "googlecloud",
+    "logoColor": "4285F4"
+  },
+  "gin": {
+    "label": "Gin",
+    "logo": "go",
+    "logoColor": "00ADD8"
+  },
+  "git": {
+    "label": "Git",
+    "logo": "git",
+    "logoColor": "F05032"
+  },
+  "github": {
+    "label": "GitHub",
+    "logo": "github",
+    "logoColor": "FFFFFF"
+  },
+  "github actions": {
+    "aliases": [
+      "gha"
+    ],
+    "label": "GitHub Actions",
+    "logo": "githubactions",
+    "logoColor": "2088FF"
+  },
+  "gitlab": {
+    "label": "GitLab",
+    "logo": "gitlab",
+    "logoColor": "FC6D26"
+  },
+  "gitlab ci/cd": {
+    "aliases": [
+      "gitlab ci",
+      "gitlab cd",
+      "gitlab cicd"
+    ],
+    "label": "GitLab CI/CD",
+    "logo": "gitlab",
+    "logoColor": "FC6D26"
+  },
+  "gitops": {
+    "aliases": [],
+    "label": "GitOps",
+    "logo": "argo",
+    "logoColor": "EF7B4D"
+  },
+  "go": {
+    "label": "Go",
+    "logo": "go",
+    "logoColor": "00ADD8"
+  },
+  "go fiber": {
+    "aliases": [
+      "fiber"
+    ],
+    "label": "Fiber",
+    "logo": "go",
+    "logoColor": "00ADD8"
+  },
+  "golang": {
+    "aliases": [
+      "go"
+    ],
+    "label": "Go",
+    "logo": "go",
+    "logoColor": "00ADD8"
+  },
+  "gorm": {
+    "aliases": [],
+    "label": "GORM",
+    "logo": "go",
+    "logoColor": "00ADD8"
+  },
+  "gradle": {
+    "aliases": [],
+    "label": "Gradle",
+    "logo": "gradle",
+    "logoColor": "02303A"
+  },
+  "grafana": {
+    "label": "Grafana",
+    "logo": "grafana",
+    "logoColor": "F46800"
+  },
+  "graphql": {
+    "label": "GraphQL",
+    "logo": "graphql",
+    "logoColor": "E10098"
+  },
+  "grpc": {
+    "aliases": [
+      "g rpc"
+    ],
+    "label": "gRPC",
+    "logo": "googlecloud",
+    "logoColor": "4285F4"
+  },
+  "haproxy": {
+    "aliases": [],
+    "label": "HAProxy",
+    "logo": "haproxy",
+    "logoColor": "106DA9"
+  },
+  "helm": {
+    "label": "Helm",
+    "logo": "helm",
+    "logoColor": "0F1689"
+  },
+  "hexagonal architecture": {
+    "aliases": [
+      "ports and adapters"
+    ],
+    "label": "Hexagonal Architecture",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "hibernate": {
+    "aliases": [
+      "jpa",
+      "spring data jpa"
+    ],
+    "label": "Hibernate",
+    "logo": "hibernate",
+    "logoColor": "59666C"
+  },
+  "hugging face": {
+    "label": "Hugging Face",
+    "logo": "huggingface",
+    "logoColor": "FFD21E"
+  },
+  "huggingface transformers": {
+    "aliases": [
+      "transformers"
+    ],
+    "label": "Transformers",
+    "logo": "huggingface",
+    "logoColor": "FFD21E"
+  },
+  "iam": {
+    "label": "IAM",
+    "logo": "amazonaws",
+    "logoColor": "FF9900"
+  },
+  "integration testing": {
+    "label": "Integration Testing",
+    "logo": "testinglibrary",
+    "logoColor": "E33332"
+  },
+  "istio": {
+    "aliases": [],
+    "label": "Istio",
+    "logo": "istio",
+    "logoColor": "466BB0"
+  },
+  "jaeger": {
+    "aliases": [],
+    "label": "Jaeger",
+    "logo": "jaeger",
+    "logoColor": "66CFE3"
+  },
+  "java": {
+    "label": "Java",
+    "logo": "openjdk",
+    "logoColor": "ED8B00"
+  },
+  "java 17": {
+    "aliases": [
+      "java"
+    ],
+    "label": "Java",
+    "logo": "openjdk",
+    "logoColor": "ED8B00"
+  },
+  "javascript": {
+    "aliases": [
+      "js"
+    ],
+    "label": "JavaScript",
+    "logo": "javascript",
+    "logoColor": "F7DF1E"
+  },
+  "jenkins": {
+    "label": "Jenkins",
+    "logo": "jenkins",
+    "logoColor": "D24939"
+  },
+  "jest": {
+    "label": "Jest",
+    "logo": "jest",
+    "logoColor": "C21325"
+  },
+  "jira": {
+    "label": "Jira",
+    "logo": "jira",
+    "logoColor": "0052CC"
+  },
+  "js": {
+    "aliases": [
+      "javascript"
+    ],
+    "label": "JavaScript",
+    "logo": "javascript",
+    "logoColor": "F7DF1E"
+  },
+  "junit": {
+    "aliases": [
+      "junit5"
+    ],
+    "label": "JUnit",
+    "logo": "junit5",
+    "logoColor": "25A162"
+  },
+  "jwt": {
+    "label": "JWT",
+    "logo": "jsonwebtokens",
+    "logoColor": "FFFFFF"
+  },
+  "k3s": {
+    "aliases": [],
+    "label": "k3s",
+    "logo": "k3s",
+    "logoColor": "FFC61C"
+  },
+  "k8s": {
+    "aliases": [
+      "kubernetes"
+    ],
+    "label": "Kubernetes",
+    "logo": "kubernetes",
+    "logoColor": "326CE5"
+  },
+  "keycloak": {
+    "label": "Keycloak",
+    "logo": "keycloak",
+    "logoColor": "4D4D4D"
+  },
+  "kibana": {
+    "label": "Kibana",
+    "logo": "kibana",
+    "logoColor": "005571"
+  },
+  "kind": {
+    "aliases": [
+      "kubernetes in docker"
+    ],
+    "label": "kind",
+    "logo": "kubernetes",
+    "logoColor": "326CE5"
+  },
+  "kotlin": {
+    "label": "Kotlin",
+    "logo": "kotlin",
+    "logoColor": "7F52FF"
+  },
+  "kubernetes": {
+    "aliases": [
+      "k8s",
+      "kube"
+    ],
+    "label": "Kubernetes",
+    "logo": "kubernetes",
+    "logoColor": "326CE5"
+  },
+  "langchain": {
+    "aliases": [],
+    "label": "LangChain",
+    "logo": "langchain",
+    "logoColor": "1C3C3C"
+  },
+  "let's encrypt": {
+    "aliases": [
+      "letsencrypt",
+      "letsencrypt"
+    ],
+    "label": "Let's Encrypt",
+    "logo": "letsencrypt",
+    "logoColor": "003A70"
+  },
+  "lightgbm": {
+    "label": "LightGBM",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "linkerd": {
+    "aliases": [],
+    "label": "Linkerd",
+    "logo": "linkerd",
+    "logoColor": "2BEDA7"
+  },
+  "linux": {
+    "label": "Linux",
+    "logo": "linux",
+    "logoColor": "FCC624"
+  },
+  "liquibase": {
+    "aliases": [],
+    "label": "Liquibase",
+    "logo": "liquibase",
+    "logoColor": "2962FF"
+  },
+  "llamaindex": {
+    "aliases": [
+      "llama index"
+    ],
+    "label": "LlamaIndex",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "llms": {
+    "label": "LLMs",
+    "logo": "openai",
+    "logoColor": "FFFFFF"
+  },
+  "loki": {
+    "aliases": [],
+    "label": "Loki",
+    "logo": "grafana",
+    "logoColor": "F46800"
+  },
+  "machine learning": {
+    "label": "Machine Learning",
+    "logo": "python",
+    "logoColor": "3776AB"
+  },
+  "mariadb": {
+    "label": "MariaDB",
+    "logo": "mariadb",
+    "logoColor": "003545"
+  },
+  "matplotlib": {
+    "label": "Matplotlib",
+    "logo": "plotly",
+    "logoColor": "3F4F75"
+  },
+  "maven": {
+    "aliases": [],
+    "label": "Maven",
+    "logo": "apachemaven",
+    "logoColor": "C71A36"
+  },
+  "micronaut": {
+    "aliases": [],
+    "label": "Micronaut",
+    "logo": "micronaut",
+    "logoColor": "1F1F1F"
+  },
+  "microservices": {
+    "aliases": [
+      "microservices architecture"
+    ],
+    "label": "Microservices Architecture",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "microservices architecture": {
+    "label": "Microservices Architecture",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "milvus": {
+    "aliases": [],
+    "label": "Milvus",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "minio": {
+    "aliases": [],
+    "label": "MinIO",
+    "logo": "minio",
+    "logoColor": "C72E49"
+  },
+  "mlflow": {
+    "aliases": [],
+    "label": "MLflow",
+    "logo": "mlflow",
+    "logoColor": "0194E2"
+  },
+  "mockito": {
+    "aliases": [],
+    "label": "Mockito",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "mongodb": {
+    "label": "MongoDB",
+    "logo": "mongodb",
+    "logoColor": "47A248"
+  },
+  "ms sql": {
+    "aliases": [
+      "sql server",
+      "mssql",
+      "ms sql server"
+    ],
+    "label": "Microsoft SQL Server",
+    "logo": "microsoftsqlserver",
+    "logoColor": "CC2927"
+  },
+  "mui": {
+    "aliases": [
+      "material ui",
+      "material-ui"
+    ],
+    "label": "MUI",
+    "logo": "mui",
+    "logoColor": "007FFF"
+  },
+  "mysql": {
+    "aliases": [
+      "my sql"
+    ],
+    "label": "MySQL",
+    "logo": "mysql",
+    "logoColor": "4479A1"
+  },
+  "nats": {
+    "aliases": [],
+    "label": "NATS",
+    "logo": "natsdotio",
+    "logoColor": "27AAE1"
+  },
+  "neo4j": {
+    "aliases": [],
+    "label": "Neo4j",
+    "logo": "neo4j",
+    "logoColor": "4581C3"
+  },
+  "nestjs": {
+    "label": "NestJS",
+    "logo": "nestjs",
+    "logoColor": "E0234E"
+  },
+  "netlify": {
+    "aliases": [],
+    "label": "Netlify",
+    "logo": "netlify",
+    "logoColor": "00C7B7"
+  },
+  "new relic": {
+    "label": "New Relic",
+    "logo": "newrelic",
+    "logoColor": "1CE783"
+  },
+  "next.js": {
+    "aliases": [
+      "nextjs"
+    ],
+    "label": "Next.js",
+    "logo": "nextdotjs",
+    "logoColor": "FFFFFF"
+  },
+  "nginx": {
+    "aliases": [
+      "nginx web server"
+    ],
+    "label": "NGINX",
+    "logo": "nginx",
+    "logoColor": "009639"
+  },
+  "nginx ingress": {
+    "aliases": [
+      "ingress nginx"
+    ],
+    "label": "NGINX Ingress",
+    "logo": "nginx",
+    "logoColor": "009639"
+  },
+  "node": {
+    "aliases": [
+      "node.js",
+      "nodejs"
+    ],
+    "label": "Node.js",
+    "logo": "nodedotjs",
+    "logoColor": "5FA04E"
+  },
+  "node.js": {
+    "aliases": [
+      "node",
+      "nodejs"
+    ],
+    "label": "Node.js",
+    "logo": "nodedotjs",
+    "logoColor": "5FA04E"
+  },
+  "nodejs": {
+    "label": "Node.js",
+    "logo": "nodedotjs",
+    "logoColor": "5FA04E"
+  },
+  "npm": {
+    "aliases": [],
+    "label": "npm",
+    "logo": "npm",
+    "logoColor": "CB3837"
+  },
+  "numpy": {
+    "label": "NumPy",
+    "logo": "numpy",
+    "logoColor": "4DABCF"
+  },
+  "nuxt.js": {
+    "aliases": [
+      "nuxtjs"
+    ],
+    "label": "Nuxt.js",
+    "logo": "nuxtdotjs",
+    "logoColor": "00DC82"
+  },
+  "oauth 2.0": {
+    "aliases": [
+      "oauth2",
+      "oauth2.0"
+    ],
+    "label": "OAuth 2.0",
+    "logo": "auth0",
+    "logoColor": "EB5424"
+  },
+  "oidc": {
+    "label": "OIDC",
+    "logo": "openid",
+    "logoColor": "F78C40"
+  },
+  "openapi": {
+    "aliases": [
+      "swagger"
+    ],
+    "label": "OpenAPI",
+    "logo": "openapiinitiative",
+    "logoColor": "6BA539"
+  },
+  "opensearch": {
+    "aliases": [],
+    "label": "OpenSearch",
+    "logo": "opensearch",
+    "logoColor": "005EB8"
+  },
+  "openshift": {
+    "aliases": [],
+    "label": "OpenShift",
+    "logo": "redhatopenshift",
+    "logoColor": "EE0000"
+  },
+  "opentelemetry": {
+    "aliases": [
+      "otel"
+    ],
+    "label": "OpenTelemetry",
+    "logo": "opentelemetry",
+    "logoColor": "000000"
+  },
+  "oracle db": {
+    "aliases": [
+      "oracle database",
+      "oracle"
+    ],
+    "label": "Oracle DB",
+    "logo": "oracle",
+    "logoColor": "F80000"
+  },
+  "owasp": {
+    "aliases": [
+      "owasp top 10"
+    ],
+    "label": "OWASP",
+    "logo": "owasp",
+    "logoColor": "000000"
+  },
+  "pandas": {
+    "label": "Pandas",
+    "logo": "pandas",
+    "logoColor": "150458"
+  },
+  "php": {
+    "label": "PHP",
+    "logo": "php",
+    "logoColor": "777BB4"
+  },
+  "pinecone": {
+    "aliases": [],
+    "label": "Pinecone",
+    "logo": "pinecone",
+    "logoColor": "00A97F"
+  },
+  "planetscale": {
+    "aliases": [],
+    "label": "PlanetScale",
+    "logo": "planetscale",
+    "logoColor": "000000"
+  },
+  "playwright": {
+    "label": "Playwright",
+    "logo": "playwright",
+    "logoColor": "2EAD33"
+  },
+  "pnpm": {
+    "aliases": [],
+    "label": "pnpm",
+    "logo": "pnpm",
+    "logoColor": "F69220"
+  },
+  "postgres": {
+    "aliases": [
+      "postgresql",
+      "postgre sql"
+    ],
+    "label": "PostgreSQL",
+    "logo": "postgresql",
+    "logoColor": "4169E1"
+  },
+  "postgresql": {
+    "aliases": [
+      "postgres",
+      "postgre sql"
+    ],
+    "label": "PostgreSQL",
+    "logo": "postgresql",
+    "logoColor": "4169E1"
+  },
+  "powershell": {
+    "aliases": [],
+    "label": "PowerShell",
+    "logo": "powershell",
+    "logoColor": "5391FE"
+  },
+  "prisma": {
+    "aliases": [],
+    "label": "Prisma",
+    "logo": "prisma",
+    "logoColor": "2D3748"
+  },
+  "prometheus": {
+    "label": "Prometheus",
+    "logo": "prometheus",
+    "logoColor": "E6522C"
+  },
+  "prometheus operator": {
+    "aliases": [],
+    "label": "Prometheus Operator",
+    "logo": "prometheus",
+    "logoColor": "E6522C"
+  },
+  "pyspark": {
+    "aliases": [
+      "apache spark"
+    ],
+    "label": "PySpark",
+    "logo": "apachespark",
+    "logoColor": "E25A1C"
+  },
+  "python": {
+    "label": "Python",
+    "logo": "python",
+    "logoColor": "FFD43B"
+  },
+  "pytorch": {
+    "label": "PyTorch",
+    "logo": "pytorch",
+    "logoColor": "EE4C2C"
+  },
+  "quarkus": {
+    "aliases": [],
+    "label": "Quarkus",
+    "logo": "quarkus",
+    "logoColor": "4695EB"
+  },
+  "rabbitmq": {
+    "label": "RabbitMQ",
+    "logo": "rabbitmq",
+    "logoColor": "FF6600"
+  },
+  "rancher": {
+    "aliases": [],
+    "label": "Rancher",
+    "logo": "rancher",
+    "logoColor": "0075A8"
+  },
+  "react": {
+    "label": "React",
+    "logo": "react",
+    "logoColor": "61DAFB"
+  },
+  "react query": {
+    "aliases": [
+      "tanstack query"
+    ],
+    "label": "React Query",
+    "logo": "reactquery",
+    "logoColor": "FF4154"
+  },
+  "react.js": {
+    "aliases": [
+      "react",
+      "reactjs"
+    ],
+    "label": "React",
+    "logo": "react",
+    "logoColor": "61DAFB"
+  },
+  "redis": {
+    "aliases": [
+      "redis cache"
+    ],
+    "label": "Redis",
+    "logo": "redis",
+    "logoColor": "DC382D"
+  },
+  "redshift": {
+    "aliases": [],
+    "label": "Redshift",
+    "logo": "amazonredshift",
+    "logoColor": "8C4FFF"
+  },
+  "redux": {
+    "aliases": [],
+    "label": "Redux",
+    "logo": "redux",
+    "logoColor": "764ABC"
+  },
+  "renovate": {
+    "aliases": [],
+    "label": "Renovate",
+    "logo": "renovate",
+    "logoColor": "1A1F6C"
+  },
+  "rest": {
+    "label": "REST",
+    "logo": "fastapi",
+    "logoColor": "00C7B7"
+  },
+  "restful apis": {
+    "label": "RESTful APIs",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "ruby": {
+    "label": "Ruby",
+    "logo": "ruby",
+    "logoColor": "CC342D"
+  },
+  "rust": {
+    "label": "Rust",
+    "logo": "rust",
+    "logoColor": "FFFFFF"
+  },
+  "rxjs": {
+    "aliases": [],
+    "label": "RxJS",
+    "logo": "reactivex",
+    "logoColor": "B7178C"
+  },
+  "sass": {
+    "label": "Sass",
+    "logo": "sass",
+    "logoColor": "CC6699"
+  },
+  "scala": {
+    "label": "Scala",
+    "logo": "scala",
+    "logoColor": "DC322F"
+  },
+  "scikit-learn": {
+    "label": "Scikit-learn",
+    "logo": "scikitlearn",
+    "logoColor": "F7931E"
+  },
+  "seaborn": {
+    "label": "Seaborn",
+    "logo": "python",
+    "logoColor": "3776AB"
+  },
+  "semantic release": {
+    "aliases": [],
+    "label": "semantic-release",
+    "logo": "semanticrelease",
+    "logoColor": "494949"
+  },
+  "sentry": {
+    "label": "Sentry",
+    "logo": "sentry",
+    "logoColor": "362D59"
+  },
+  "serverless": {
+    "aliases": [],
+    "label": "Serverless",
+    "logo": "serverless",
+    "logoColor": "FD5750"
+  },
+  "shadcn/ui": {
+    "aliases": [
+      "shadcn ui"
+    ],
+    "label": "shadcn/ui",
+    "logo": "shadcnui",
+    "logoColor": "FFFFFF"
+  },
+  "snowflake": {
+    "aliases": [],
+    "label": "Snowflake",
+    "logo": "snowflake",
+    "logoColor": "29B5E8"
+  },
+  "snyk": {
+    "aliases": [],
+    "label": "Snyk",
+    "logo": "snyk",
+    "logoColor": "4C4A73"
+  },
+  "soap": {
+    "label": "SOAP",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "socket.io": {
+    "aliases": [
+      "socketio"
+    ],
+    "label": "Socket.IO",
+    "logo": "socketdotio",
+    "logoColor": "FFFFFF"
+  },
+  "solidjs": {
+    "aliases": [
+      "solid.js"
+    ],
+    "label": "SolidJS",
+    "logo": "solid",
+    "logoColor": "2C4F7C"
+  },
+  "sonarqube": {
+    "aliases": [],
+    "label": "SonarQube",
+    "logo": "sonarqube",
+    "logoColor": "4E9BCD"
+  },
+  "splunk": {
+    "aliases": [],
+    "label": "Splunk",
+    "logo": "splunk",
+    "logoColor": "65A637"
+  },
+  "spring boot": {
+    "label": "Spring Boot",
+    "logo": "springboot",
+    "logoColor": "6DB33F"
+  },
+  "spring cloud": {
+    "label": "Spring Cloud",
+    "logo": "spring",
+    "logoColor": "6DB33F"
+  },
+  "spring security": {
+    "label": "Spring Security",
+    "logo": "springsecurity",
+    "logoColor": "6DB33F"
+  },
+  "sql": {
+    "label": "SQL",
+    "logo": "postgresql",
+    "logoColor": "336791"
+  },
+  "sqlite": {
+    "label": "SQLite",
+    "logo": "sqlite",
+    "logoColor": "003B57"
+  },
+  "step functions": {
+    "aliases": [
+      "aws step functions"
+    ],
+    "label": "Step Functions",
+    "logo": "amazonaws",
+    "logoColor": "FF9900"
+  },
+  "storybook": {
+    "aliases": [],
+    "label": "Storybook",
+    "logo": "storybook",
+    "logoColor": "FF4785"
+  },
+  "supabase": {
+    "aliases": [],
+    "label": "Supabase",
+    "logo": "supabase",
+    "logoColor": "3FCF8E"
+  },
+  "svelte": {
+    "aliases": [],
+    "label": "Svelte",
+    "logo": "svelte",
+    "logoColor": "FF3E00"
+  },
+  "swift": {
+    "label": "Swift",
+    "logo": "swift",
+    "logoColor": "FA7343"
+  },
+  "tailwind css": {
+    "label": "Tailwind CSS",
+    "logo": "tailwindcss",
+    "logoColor": "06B6D4"
+  },
+  "tekton": {
+    "aliases": [],
+    "label": "Tekton",
+    "logo": "tekton",
+    "logoColor": "FD495C"
+  },
+  "tempo": {
+    "aliases": [],
+    "label": "Tempo",
+    "logo": "grafana",
+    "logoColor": "F46800"
+  },
+  "tensorflow": {
+    "label": "TensorFlow",
+    "logo": "tensorflow",
+    "logoColor": "FF6F00"
+  },
+  "terraform": {
+    "label": "Terraform",
+    "logo": "terraform",
+    "logoColor": "844FBA"
+  },
+  "testcontainers": {
+    "aliases": [],
+    "label": "Testcontainers",
+    "logo": "testcontainers",
+    "logoColor": "2496ED"
+  },
+  "timescaledb": {
+    "aliases": [
+      "timescale db"
+    ],
+    "label": "TimescaleDB",
+    "logo": "timescale",
+    "logoColor": "FDB515"
+  },
+  "traefik": {
+    "aliases": [],
+    "label": "Traefik",
+    "logo": "traefikmesh",
+    "logoColor": "24A1C1"
+  },
+  "travis ci": {
+    "label": "Travis CI",
+    "logo": "travisci",
+    "logoColor": "3EAAAF"
+  },
+  "trivy": {
+    "aliases": [],
+    "label": "Trivy",
+    "logo": "trivy",
+    "logoColor": "1904DA"
+  },
+  "ts": {
+    "aliases": [
+      "typescript"
+    ],
+    "label": "TypeScript",
+    "logo": "typescript",
+    "logoColor": "3178C6"
+  },
+  "typeorm": {
+    "aliases": [],
+    "label": "TypeORM",
+    "logo": "typeorm",
+    "logoColor": "FE0803"
+  },
+  "typescript": {
+    "aliases": [
+      "ts"
+    ],
+    "label": "TypeScript",
+    "logo": "typescript",
+    "logoColor": "3178C6"
+  },
+  "ubuntu": {
+    "aliases": [],
+    "label": "Ubuntu",
+    "logo": "ubuntu",
+    "logoColor": "E95420"
+  },
+  "unit testing": {
+    "label": "Unit Testing",
+    "logo": "vitest",
+    "logoColor": "6E9F18"
+  },
+  "unix": {
+    "aliases": [
+      "linux"
+    ],
+    "label": "Linux",
+    "logo": "linux",
+    "logoColor": "FCC624"
+  },
+  "vault": {
+    "aliases": [
+      "hashicorp vault"
+    ],
+    "label": "Vault",
+    "logo": "vault",
+    "logoColor": "FFEC6E"
+  },
+  "vercel": {
+    "aliases": [],
+    "label": "Vercel",
+    "logo": "vercel",
+    "logoColor": "FFFFFF"
+  },
+  "vert.x": {
+    "aliases": [
+      "vertx"
+    ],
+    "label": "Vert.x",
+    "logo": "eclipsevertx",
+    "logoColor": "782A90"
+  },
+  "viper": {
+    "aliases": [],
+    "label": "Viper",
+    "logo": "go",
+    "logoColor": "00ADD8"
+  },
+  "vite": {
+    "label": "Vite",
+    "logo": "vite",
+    "logoColor": "646CFF"
+  },
+  "vitepress": {
+    "aliases": [],
+    "label": "VitePress",
+    "logo": "vite",
+    "logoColor": "646CFF"
+  },
+  "vitest": {
+    "label": "Vitest",
+    "logo": "vitest",
+    "logoColor": "6E9F18"
+  },
+  "vue.js": {
+    "aliases": [
+      "vue",
+      "vuejs"
+    ],
+    "label": "Vue.js",
+    "logo": "vuedotjs",
+    "logoColor": "4FC08D"
+  },
+  "vuetify": {
+    "label": "Vuetify",
+    "logo": "vuetify",
+    "logoColor": "1867C0"
+  },
+  "weaviate": {
+    "aliases": [],
+    "label": "Weaviate",
+    "logo": "weaviate",
+    "logoColor": "00B6FF"
+  },
+  "webpack": {
+    "label": "Webpack",
+    "logo": "webpack",
+    "logoColor": "8DD6F9"
+  },
+  "webrtc": {
+    "aliases": [],
+    "label": "WebRTC",
+    "logo": "webrtc",
+    "logoColor": "333333"
+  },
+  "websocket": {
+    "aliases": [
+      "websockets"
+    ],
+    "label": "WebSocket",
+    "logo": "socketdotio",
+    "logoColor": "FFFFFF"
+  },
+  "wiremock": {
+    "aliases": [],
+    "label": "WireMock",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "xgboost": {
+    "label": "XGBoost",
+    "logo": "",
+    "logoColor": "59A5FF"
+  },
+  "yarn": {
+    "aliases": [],
+    "label": "Yarn",
+    "logo": "yarn",
+    "logoColor": "2C8EBB"
+  },
+  "zipkin": {
+    "aliases": [],
+    "label": "Zipkin",
+    "logo": "openzipkin",
+    "logoColor": "000000"
+  },
+  "zsh": {
+    "aliases": [],
+    "label": "Zsh",
+    "logo": "gnubash",
+    "logoColor": "4EAA25"
+  },
+  "zustand": {
+    "aliases": [],
+    "label": "Zustand",
+    "logo": "react",
+    "logoColor": "61DAFB"
+  }
+}

@@ -1,4 +1,4 @@
-name: Update Org Languages
+name: Update Readme
 
 on:
   workflow_dispatch:
@@ -27,7 +27,12 @@ jobs:
           ORG_NAME: nzhussup-studio
         run: python scripts/update_org_languages.py
 
+      - name: Update skill badge section
+        env:
+          SKILLS_API_URL: https://api.nzhussup.dev/v1/base/skill
+        run: python scripts/update_skill_badges.py
+
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          commit_message: "chore(readme): refresh org language summary"
+          commit_message: "chore(readme): refresh org language and skill sections"
