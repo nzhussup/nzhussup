@@ -251,14 +251,14 @@ My current work sits at the intersection of web development, backend systems, pl
 
 <!-- active-languages:start -->
 <p>
-  <img src="https://img.shields.io/badge/TypeScript-46.5%25-0F172A?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript 46.5%" />
-  <img src="https://img.shields.io/badge/Go-29.5%25-0F172A?style=for-the-badge&logo=go&logoColor=00ADD8" alt="Go 29.5%" />
-  <img src="https://img.shields.io/badge/JavaScript-11.9%25-0F172A?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript 11.9%" />
-  <img src="https://img.shields.io/badge/Java-4.2%25-0F172A?style=for-the-badge&logo=openjdk&logoColor=ED8B00" alt="Java 4.2%" />
-  <img src="https://img.shields.io/badge/Shell-3.2%25-0F172A?style=for-the-badge&logo=gnubash&logoColor=89E051" alt="Shell 3.2%" />
-  <img src="https://img.shields.io/badge/Ruby-1.7%25-0F172A?style=for-the-badge&logoColor=59A5FF" alt="Ruby 1.7%" />
-  <img src="https://img.shields.io/badge/CSS-1.5%25-0F172A?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS 1.5%" />
-  <img src="https://img.shields.io/badge/HTML-0.9%25-0F172A?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML 0.9%" />
+  <img src="https://img.shields.io/badge/TypeScript-49.8%25-0F172A?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript 49.8%" />
+  <img src="https://img.shields.io/badge/Go-29.0%25-0F172A?style=for-the-badge&logo=go&logoColor=00ADD8" alt="Go 29.0%" />
+  <img src="https://img.shields.io/badge/JavaScript-10.1%25-0F172A?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript 10.1%" />
+  <img src="https://img.shields.io/badge/Java-4.1%25-0F172A?style=for-the-badge&logo=openjdk&logoColor=ED8B00" alt="Java 4.1%" />
+  <img src="https://img.shields.io/badge/Shell-3.0%25-0F172A?style=for-the-badge&logo=gnubash&logoColor=89E051" alt="Shell 3.0%" />
+  <img src="https://img.shields.io/badge/Ruby-1.5%25-0F172A?style=for-the-badge&logoColor=59A5FF" alt="Ruby 1.5%" />
+  <img src="https://img.shields.io/badge/CSS-1.3%25-0F172A?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS 1.3%" />
+  <img src="https://img.shields.io/badge/HTML-0.8%25-0F172A?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML 0.8%" />
 </p>
 
 <p>Generated from public repositories in <code>nzhussup-studio</code> across 5 repos. Current leading languages: TypeScript, Go, JavaScript.</p>
